@@ -1,22 +1,19 @@
-# Secure To-Do App
+# 🔒 Secure To-Do App
 
-This is a simple **Secure To-Do App** built in Python. It allows users to create and manage a list of tasks.
+A simple and secure to-do list application built with **Node.js**, **Express**, and **vanilla JavaScript**. It features AES-encrypted local task storage and GitHub Actions for CI/CD — ideal for demonstrating full-stack and DevOps skills in a job application or portfolio.
 
-##  Features
+---
 
-- Add, view, and delete to-do items
-- Store tasks securely (local file for now)
-- GitHub-based CI/CD (no Docker)
-- Clean and minimal design
+## ✨ Features
 
-## Project Setup
+- ✅ Add, view, and delete tasks
+- 🔐 AES-encrypted local storage (`tasks.json.enc`)
+- 🧠 RESTful API with Express
+- 🧼 Clean frontend with HTML/CSS/JS
+- 🚀 CI/CD pipeline using GitHub Actions
+- 💻 Easy local setup — no Docker required
 
-```bash
-# Clone the repo
-git clone https://github.com/museteka01/Secure---to--do--app.git
+---
 
-# Navigate into the project
-cd Secure---to--do--app
+## 📁 Project Structure
 
-# Run the main script
-python main.py
